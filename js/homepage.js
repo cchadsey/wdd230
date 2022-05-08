@@ -1,1 +1,0 @@
-document.querySelector('copyright').textContent = "\u00A9";
