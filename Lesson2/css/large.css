@@ -1,0 +1,20 @@
+@media (min-width: 64em){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .concept1{
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    .concept2{
+        grid-column:2/3;
+        grid-row: 1/2;
+        align-self: stretch;
+    }
+    .concept3{
+        grid-column:3/4;
+        grid-row:1/2;
+        align-self: stretch;
+    }
+}
+    
