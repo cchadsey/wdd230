@@ -1,0 +1,74 @@
+.allofit{
+    max-width: 630px;
+    margin:auto;
+    background-color:white;
+}
+
+header{
+    width:630px;
+    height: 150px;;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    margin:70px 10px 70px 10px;
+    background-color:royalblue;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 15px 5px grey;
+
+}
+header img{
+    grid-column:1/2;
+    width:105px;
+    align-self:center;
+    justify-self: center;
+    border-radius: 5px 5px;
+    box-shadow: 0px 0px 15px 5px grey;
+    
+}
+.portal_headline{
+    grid-column: 2/3;
+    align-self:center;
+    justify-self: center;
+    text-shadow: 0px 0px 15px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+}
+footer{
+    width:630px;
+    height: 100px;;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin:70px 10px 70px 10px;
+    background-color:royalblue;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 15px 5px grey;
+}
+footer p{
+    grid-column: 1/2;
+    justify-self: center;
+    color:white;
+
+}
+#lastModified{
+    color:yellow;
+}
+.list1{
+    display:grid;
+    grid-template-rows: auto auto auto;
+    justify-content:center;
+    width:630px;
+}
+.list1 h2{
+    grid-row:1/2;
+    align-self:center;
+
+}
+.list{
+    grid-row: 2/3;
+    border-bottom:5px solid black;
+    border-top:5px solid black;
+
+}
+.list1 p{
+    grid-row: 3/4;
+}
