@@ -1,0 +1,58 @@
+
+body{
+    font-family:'Lato light 300 italic', sans-serif;
+    font-size:100%;
+}
+header{
+    display:flex;
+    background-color:#003049;
+    flex-direction: column;
+    max-width:700px;
+}
+header img{
+    width:100px;
+}
+nav{
+    display:block;
+    max-width: 400px;
+    background-color:#003049;
+
+}
+socials{
+    display:block;
+}
+.navMenu{
+    display:block;
+}
+.navMenu a{
+    display:block;
+    padding:80rem;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size:clamp(1rem, 2vmin, 1.5rem);
+}
+.navMenu li:first-child{
+    display:block;
+}
+.navMenu li{
+    display:none;
+}
+.responsive{
+    display: block;
+}
+.responsive li:first-child{
+    display:block
+}
+.responsive li{
+    display:block;
+}
+#menuButton::before {
+	content: "≡";
+	font-size: 2rem;
+}
+.responsive #menuButton::before {
+	content: "X";
+}
