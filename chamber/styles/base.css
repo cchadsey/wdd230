@@ -1,21 +1,36 @@
 
 body{
+    display: block;
     font-family:'Lato light 300 italic', sans-serif;
     font-size:100%;
+    background-color: #EAE2B7;
+
+
 }
 header{
     display:flex;
     background-color:#003049;
     flex-direction: column;
-    max-width:700px;
+    align-items:center;
+    margin:auto;
 }
 header img{
-    width:100px;
+    max-width:100px;
 }
+logo{
+    display:flex;
+    flex-direction: row;
+}
+.title{
+    font-size:0.5em;
+    display:block;
+}
+
 nav{
     display:block;
-    max-width: 400px;
     background-color:#003049;
+    max-width: 700;
+    margin:auto;
 
 }
 socials{
@@ -23,10 +38,11 @@ socials{
 }
 .navMenu{
     display:block;
+    min-width: 50px;
 }
 .navMenu a{
     display:block;
-    padding:80rem;
+    padding:10px;
     text-align:center;
     text-decoration:none;
     color:white;
@@ -55,4 +71,23 @@ socials{
 }
 .responsive #menuButton::before {
 	content: "X";
+}
+main{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+
+}
+.box {
+    display:inline-block;
+    overflow:hidden;
+    background-color: #FCBF49;
+    border-style: solid;
+    max-width: max-content;
+    padding:auto;
+
+
+}
+.spot3{
+    display:none;
 }
