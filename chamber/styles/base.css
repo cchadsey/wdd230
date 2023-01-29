@@ -1,9 +1,13 @@
-
+html{
+    box-sizing: border-box;
+}
 body{
     display: block;
     font-family:'Lato light 300 italic', sans-serif;
     font-size:100%;
-    background-color: #EAE2B7;
+    background-color: white;
+    max-width:100%;
+    box-sizing: border-box;
 
 
 }
@@ -12,29 +16,43 @@ header{
     background-color:#003049;
     flex-direction: column;
     align-items:center;
+    justify-items:center;
     margin:auto;
+    list-style:none;
 }
 header img{
     max-width:100px;
 }
+.heading{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+}
+socials{
+    display:flex;
+    align-items: center;
+}
 logo{
     display:flex;
     flex-direction: row;
+    align-items:center;
+    text-align: center;
+}
+.icon img{
+    width: 25px;
+    
 }
 .title{
     font-size:0.5em;
     display:block;
+    color:white;
 }
-
 nav{
-    display:block;
+    display:flex;
     background-color:#003049;
-    max-width: 700;
+    max-width: 700px;
     margin:auto;
 
-}
-socials{
-    display:block;
 }
 .navMenu{
     display:block;
@@ -42,7 +60,7 @@ socials{
 }
 .navMenu a{
     display:block;
-    padding:10px;
+    /*padding:10px;*/
     text-align:center;
     text-decoration:none;
     color:white;
@@ -77,17 +95,32 @@ main{
     flex-direction: column;
     margin:auto;
 
+    
 }
 .box {
+    flex:1;
     display:inline-block;
     overflow:hidden;
-    background-color: #FCBF49;
+    background-color: #EAE2B7;
     border-style: solid;
-    max-width: max-content;
-    padding:auto;
+    max-height:100%;
+    margin:auto;
+    padding:15px;
 
 
+
+
+}
+.spotBox{
+    height:100%;
 }
 .spot3{
     display:none;
+}
+
+
+
+
+footer img{
+    width:100px;
 }
