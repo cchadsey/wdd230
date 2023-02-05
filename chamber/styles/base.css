@@ -21,18 +21,21 @@ header{
     list-style:none;
     padding:5px;
 }
-header img{
+.logo img{
     max-width:90px;
 }
 .heading{
     display:flex;
     flex-direction: row;
     margin:auto;
+    padding:10px;
 }
-socials{
+.socials{
     display:flex;
     align-items: center;
     justify-items:center;
+    padding:10px;
+    margin:10px;
 }
 #headDate{
     border:solid;
@@ -40,7 +43,7 @@ socials{
     background-color: #EAE2B7;
     width: 80%;
 }
-logo{
+.logo{
     display:flex;
     flex-direction: row;
     align-items:center;
@@ -64,11 +67,11 @@ nav{
 }
 
 .navMenu{
-    display:block;
+    display:flex;
     min-width: 50px;
 }
 .navMenu a{
-    display:block;
+    display:flex;
     /*padding:10px;*/
     text-align:center;
     text-decoration:none;
@@ -78,26 +81,34 @@ nav{
     font-size:clamp(1rem, 2vmin, 1.5rem);
 }
 .navMenu li:first-child{
-    display:block;
+    display:flex;
 }
 .navMenu li{
     display:none;
 }
 .responsive{
-    display: block;
+    display: flex;
 }
 .responsive li:first-child{
-    display:block
+    display:flex;
 }
 .responsive li{
-    display:block;
+    display:flex;
 }
 #menuButton::before {
 	content: "≡";
 	font-size: 2rem;
 }
+a#menubutton::before{
+    margin:auto;
+    justify-self: center;
+    align-self:center;
+}
 .responsive #menuButton::before {
 	content: "X";
+}
+.navMenu a:hover{
+    color:#EF6F6C;
 }
 main{
     display:flex;
@@ -121,9 +132,7 @@ main{
 
 
 }
-.spotBox{
-    height:100%;
-}
+
 .spot3{
     display:none;
 }
@@ -149,13 +158,7 @@ map{
 .pin{
     width:40px;
 }
-map a:link, a:visited{
-    color:white;
 
-}
-map a:hover{
-    color:#EF6F6C;
-}
 footing{
     display:flex;
     flex-wrap: wrap;
