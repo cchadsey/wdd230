@@ -118,6 +118,24 @@ main{
     padding:1em;
     
 }
+#greetBanner{
+    display:none;
+    overflow:hidden;
+    background-color:#EAE2B7;
+    border-style: double;
+    border-color:#EF6F6C;
+    max-height:100%;
+    margin:auto;
+    padding:15px;
+    width:80%;
+
+}
+.bannerContainer{
+    background-color: #EF6F6C;
+    border-bottom:#003049 10px solid;
+
+}
+
 main img{
     width: 100%;
 }

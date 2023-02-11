@@ -31,3 +31,13 @@ theDate.textContent = dateForm
 function toggleMenu() {
     document.getElementsByClassName("navMenu")[0].classList.toggle("responsive");
 }
+
+
+let day = now.getDay()
+
+if (day == 1) {
+    document.getElementById('greetBanner').style["display"] = 'block' ;
+}
+if (day == 6) {
+    document.getElementById('greetBanner').style["display"] = 'block' ;
+}
