@@ -1,4 +1,4 @@
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 64em) {
     .heading{
         display:grid;
         grid-template-columns:1fr 1fr 2fr 1fr;
@@ -78,14 +78,36 @@
         grid-template-rows:1fr 1fr 1fr;
     }
     .spot1{
+        align-content:center;
+        justify-content: center;
+        text-align: center;
         grid-column:1/2;
         grid-row:1/2;
     }
+    .spot1 img{
+        justify-self:center;
+        padding:15px
+    }
     .spot2{
+        align-content:center;
+        justify-content: center;
+        text-align: center;
         grid-column:1/2;
         grid-row:2/3;
     }
+    .spot2 img{
+        justify-self:center;
+        padding:15px
+    }
+    .spot3 img{
+        justify-self:center;
+        padding:15px;
+        width:80px;
+    }
     .spot3{
+        align-content:center;
+        justify-content: center;
+        text-align: center;
         display:initial;
         grid-column:1/2;
         grid-row:3/4;

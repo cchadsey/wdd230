@@ -39,6 +39,7 @@ header{
 }
 #headDate{
     border:solid;
+    text-align: center;
     padding:10px;
     background-color: #EAE2B7;
     width: 80%;
@@ -58,6 +59,7 @@ header{
     display:block;
     color:white;
 }
+
 nav{
     display:flex;
     background-color:#003049;
@@ -121,6 +123,7 @@ main{
 #greetBanner{
     display:none;
     overflow:hidden;
+    text-align: center;
     background-color:#EAE2B7;
     border-style: double;
     border-color:#EF6F6C;
