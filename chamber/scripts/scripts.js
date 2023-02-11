@@ -38,6 +38,6 @@ let day = now.getDay()
 if (day == 1) {
     document.getElementById('greetBanner').style["display"] = 'block' ;
 }
-if (day == 6) {
+if (day == 2) {
     document.getElementById('greetBanner').style["display"] = 'block' ;
 }
