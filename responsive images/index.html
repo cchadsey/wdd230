@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>McAlester Chamber of Commerce</title>
+            <meta name="description" content="McAlester Chamber of Commerce">
+            <link rel="stylesheet" href="styles/normalize.css">
+            <link rel="stylesheet" href="styles/base.css">
+            <link rel="stylesheet" href="styles/medium.css">
+            <link rel="stylesheet" href="styles/large.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <header>
+                <div class="heading">
+                    <div class="logo">
+                        <img id="logo" src="images/McAlester Chamber of Commerce-1.webp" alt="McAlester Chamber of Commerce">
+                        <div class="title">
+                            <h1>McAlester Chamber of Commerce</h1>
+                            <p>McAlesterChamber.com</p>
+                        </div>
+                    </div>    
+                    <nav>
+                        <div class="socials">
+                            <li><a class="icon" href="facebook.com"><img src="images/facebook_icon.png" alt="Facebook"></a></li>
+                            <li><a class="icon" href="linkedin.com"><img src="images/linkedin-icon.png" alt="Linkedin"></a></li>
+                        </div>
+                        <pages class="navMenu">
+                            <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
+                            <li><a href="index.html">Discover</a></li>
+                            <li><a href="index.html">Directory</a></li>
+                            <li><a href="index.html">Join</a></li>
+                            <li><a href="index.html">Contact</a></li>
+                        </pages>
+                    </nav> 
+                </div>
+                <p id="headDate">pie</p>
+                
+                </header>
+            <div class="bannerContainer">    
+                <div id="greetBanner" class="">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m</div>
+            </div>
+            <main>
+                
+                <div id="hero" class="box">
+                    <div class="container">   
+                        <picture class="splash">
+                            <source srcset="images/large.png" media="(min-width:64em)">
+                                <source srcset="images/medium.png" media="(min-width:32.5em) and (max-width:63.9em)">
+                            <img src="images/small.png" alt="Beautiful Downtown">
+                        </picture>
+                        <div class="overlays">Small</div>
+                        <div class="overlaym">Medium</div>
+                        <div class="overlayl">Large</div>
+                    </div>
+                </div>
+                <div id="event" class="box">
+                    <h2>Italian Festival</h2>
+                    <img src="images/italian.jpg" alt="Italian Flag">
+                    <p>Join us for our anual Italian Festival! <br>Every weekend this month,<br> at the McAlester Expo Center!</p>
+                </div>
+                <div id="weather" class="box">
+                    <img src="images/hot.png" alt="Hot">
+                    <h2>Weather</h2>
+                    <p class="temp">95&#8451;</p>
+                    <p class="condition">Hot</p>
+                    <p class="wind">Wind Speed: 2 MPh<br>Feels Like: 104&#8451;</p>
+                </div>
+                <div id="join" class="box">
+                    <p>Join</p>
+                </div>
+                <div id="news" class="box">
+                    <h2>News</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div id="spotlight" class="box spotBox">
+                    <div class="box spot1">
+                        <img src="images/buffalo.png" alt="McAlester Buffaloes">
+                        <p>Enrolling now for the upcoming school year!</p>
+                        <a href="www.mcalester.k12.ok.us">McAlester Public Schools</a>
+                    </div>
+                    <div class="box spot2">
+                        <img src="images/pepsi.png" alt="McAlester Pepsi">
+                        <p>McAlester Pepsi, bringing that hometown service to the national level!</p>
+                        <a href="mcalesterpepsi.com">McAlester Pepsi</a>
+                    </div>
+                    <div class="box spot3">
+                        <img src="images/flu.png" alt="Flu Shots">
+                        <p>Flu Shots now avaliable at the health department!</p>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <img src="images/McAlester Chamber of Commerce-1.webp" alt="McAlester Chamber of Commerce">
+                <contact>
+                    <p>McAlester City Hall
+                        28 E Washington Avenue
+                        McAlester, OK 74501</p>
+                    <p>(918) 423 - 9300</p>
+                    <p>info@mcalesterchamber.com</p>
+                </contact>
+                <map>
+                    <a href="https://www.google.com/maps/place/Mc+Alester+City+Offices/@34.9339383,-95.7683745,15z/data=!4m2!3m1!1s0x0:0xa525190dd4bfb825?sa=X&ved=2ahUKEwj7_Nnio_P8AhUProkEHYpqBooQ_BJ6BAhmEAg" ><img class="pin" src="https://www.freeiconspng.com/uploads/push-pin-icon-14.png" alt="push pin icon red" />Location Map</a>
+                </map>
+                <footing>
+                    <p>&copy;<span id="currentYear">pizza</span>
+                    <p>Camden Chadsey</p>
+                    <p>WDD 230 Project</p>
+                    <p id="lastModified"></p>
+                    
+                </footing>
+            </footer>
+        <script src="scripts/scripts.js"></script>    
+        </body>
+    </html>
