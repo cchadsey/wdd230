@@ -1,0 +1,10 @@
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+h1{
+    color:firebrick;
+}
+body{
+    background:grey;
+}
