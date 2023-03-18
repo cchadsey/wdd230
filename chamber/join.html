@@ -42,30 +42,59 @@
                 </header>
 
                 <main>
-                    <h2>Discover Beautiful McAlester</h2>
-                    <div class="">
-                        <img src="" data-src="" alt="">
-                        <p></p>
+                    <h2>Join McAlester's Chamber of Commerce</h2>
+                    <h3>Give your buisness the spotlight</h3>
+                    <form method="get" action="thankyou.html">
+                        <label>First Name <input type="text" name="fname" required></label>
+                        <label>Last Name <input type="text" name="lname" required></label>
+                        <label>Buisness position <input type="text" name="position" pattern="[A-Za-z]+-\s{7,}"></label>
+                        <label>Email <input type="email" name="email" placeholder="you@gmail.com" required></label>
+                        <label>Cellphone <input type="tel" name="cellphone" placeholder="4445554545" required></label>
+                        <label>Buisness name <input type="text" name="business name" required></label>
+                        <fieldset>
+                            <legend>Membership Level</legend>
+                            <label>Non Profit <input type="radio"></label>
+                            <label>Bronze <input type="radio"></label>
+                            <label>Silver <input type="radio"></label>
+                            <label>Gold <input type="radio"></label>
+                        </fieldset>
+                        <label>Buisness Description <textarea name="buisness description"></textarea></label>
+                        <input type="hidden" name="date" id="joindate" value="pie">
+                        <input type="submit" value="Join us">
+                    </form>
+                    <div class="Gold">
+                        <h4>Gold Membership: $43,937/day</h4>
+                        <p>With our Gold membership package, Everything is possible!</p>
+                        <ul>
+                            <li>Permanent ad on the Chamber home page!</li>
+                            <li>Priority seating at all Chamber events</li>
+                            <li>Access to our list of Charity Cases (Think of the tax breaks!)</li>
+                            <li>No more inspections! Simply tell us that you're following code, We Belive you!</li>
+                        </ul>
                     </div>
-                    <div class="">
-                        <img src="" data-src="" alt="">
-                        <p></p>
+                    <div class="silver">
+                        <h4>Silver Membership: $400/Month</h4>
+                        <p>Be seen!</p>
+                        <ul>
+                            <li>Ad on the Chamber home page</li>
+                            <li>Access to Chamber events</li>
+                            <li>Fair, Timely inspections</li>
+                        </ul>
                     </div>
-                    <div class="">
-                        <img src="" data-src="" alt="">
-                        <p></p>
+                    <div class="bronze">
+                        <h4>Bronze Membership: $350/Month</h4>
+                        <ul>
+                            <li>Ad occasoinally on the Chamber home page</li>
+                            <li>Postcard in the mail telling you we missed you at Chamber events</li>
+                            <li>Timely inspections (Fairness upcharge on inspector arrival. price at inspector's discretion)</li>
+                        </ul>
                     </div>
-                    <div class="">
-                        <img src="" data-src="" alt="">
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <img src="" data-src="" alt="">
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <img src="" data-src="" alt="">
-                        <p></p>
+                    <div class="NP">
+                        <h4>Non-Profit Membership</h4>
+                        <ul>
+                            <li>Advertise your Events on our homepage!</li>
+                            <li>A spot on our list of Charitable opprotunities </li>
+                        </ul>
                     </div>
                 </main>
 

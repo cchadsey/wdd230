@@ -12,6 +12,8 @@ let year = lastModified.toLocaleString('en-US', {year:"numeric"});
 document.getElementById("currentYear").innerHTML = year;
 
 
+
+
 //date for the header
 
 
@@ -31,6 +33,9 @@ theDate.textContent = dateForm
 function toggleMenu() {
     document.getElementsByClassName("navMenu")[0].classList.toggle("responsive");
 }
+
+//using the existing dateform to insert date/time into the form on the join page.
+document.getElementById("joindate").value = now 
 
 
 let day = now.getDay()
