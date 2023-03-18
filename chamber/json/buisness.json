@@ -1,0 +1,77 @@
+{
+
+    "buisnesses": [
+        {
+            "name" : "Pepsi Cola Bottling Company of McAlester",
+            "address" : "1528 E. Electric",
+            "phone" : "918-423-2360",
+            "website" : "www.mcalesterpepsi.com",
+            "logo" : "./images/pepsi.png",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "McAlester Regional Hospital",
+            "address" : "1 Hospital Way",
+            "phone" : "918-444-2233",
+            "website" : "www.mrhc.ok.gov",
+            "logo" : "./images/mrhc.png",
+            "membership" : "np"
+        },
+        {
+            "name" : "McAlester Public Schools",
+            "address" : "1 Buffalo Dr",
+            "phone" : "918-444-5544",
+            "website" : "www.MPS.ok.gov",
+            "logo" : "./images/buffalo.png",
+            "membership" : "np"
+        },
+        {
+            "name" : "Apex Cinema",
+            "address" : "4 Cinema rd",
+            "phone" : "918-888-4876",
+            "website" : "www.apexcinema.com",
+            "logo" : "./images/apex.png",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Freedom Ford",
+            "address" : "876 car aisle",
+            "phone" : "918-899-9999",
+            "website" : "www.freedomford.com",
+            "logo" : "./images/freedomford.png",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Dupont plastics",
+            "address" : "1475 industry dr",
+            "phone" : "918-885-9555",
+            "website" : "www.notdupont.com",
+            "logo" : "./images/dupont.png",
+            "membership" : "bronze"
+        },
+        {
+            "name" : "Gregory's Choclate Factory",
+            "address" : "22343 Industry Dr",
+            "phone" : "918-654-4564",
+            "website" : "www.gregorychoclate",
+            "logo" : "./images/gregory.png",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Lary's Toxic Waste",
+            "address" : "14 Radiation Way",
+            "phone" : "",
+            "website" : "",
+            "logo" : "./images/",
+            "membership" : ""
+        },
+        {
+            "name" : "Steve's Emporium of Suspicious Goods",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "logo" : "./images/",
+            "membership" : ""
+        }
+    ]
+}
