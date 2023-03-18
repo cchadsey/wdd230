@@ -1,7 +1,7 @@
 let url= "./json/buisness.json";
 let cards = document.querySelector('#cards');
 let list = document.querySelector('#list')
-
+let directory = document.querySelector('.directory');
 
 async function getdirectorydata(url) {
     let response = await fetch(url);
@@ -15,21 +15,20 @@ async function getdirectorydata(url) {
                 displayCards(buisness);
         });
 
-            list.addEventListener('click', (buisnesses)=>{
-                
-                cards.innerHtml = '';
-                buisnesses.forEach(buisness => {
-                        displayList(buisness);
-                    });
-
-            });
-
-            cards.addEventListener('click', (buisnesses) =>{
-                cards.innerHtml = '';
-                buisnesses.forEach(buisness=>{
-                    displayCards(buisness);
+        list.addEventListener("click", ()=>{
+            deleteChild();
+            buisnesses.forEach(buisness => {
+                    displayTable(buisness);
                 });
+
+        });
+
+        cards.addEventListener('click', () =>{
+            deleteChild()
+            buisnesses.forEach(buisness =>{
+                displayCards(buisness);
             });
+        });
 
         
 
@@ -37,8 +36,19 @@ async function getdirectorydata(url) {
 
 getdirectorydata(url);
 
+function deleteChild(){
+    let parent = document.querySelector('#kill');
+    let child = parent.lastElementChild;
+    while(child) {
+        parent.removeChild(child);
+        child= parent.lastElementChild;
+    }
+};
+
 function displayCards(buisness) {
     let card = document.createElement('section');
+
+    document.querySelector('.directory').innerHtml = "";
 
     let image = document.createElement('img');
     image.setAttribute('src', buisness.logo);
@@ -69,7 +79,8 @@ function displayCards(buisness) {
 function displayTable(buisness) {
     let tableRow = document.createElement('tr');
 
-
+    document.querySelector('.directory').appendChild(tableRow)
+    
     let name = document.createElement('td');
     name.textContent = buisness.name;
     tableRow.appendChild(name);
@@ -93,5 +104,5 @@ function displayTable(buisness) {
     website.textContent = 'Website';
     tableRow.appendChild(website);
 
-    document.querySelector('table').appendChild(tableRow);
+    ;
 }
