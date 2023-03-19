@@ -124,4 +124,25 @@
         grid-column:1/2;
         grid-row:2/3;
     }
+    .dirMain{
+        margin:auto;
+        padding-bottom:100px
+    }
+    .dirButton button{
+        font-size: 2em ;
+        width:10em
+        
+    }
+    .cards{
+        grid-column:1/5;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-gap:10px;
+    }
+    .cards img{
+        max-width: 5em;
+    }
+    .cards h2{
+        font-size:1em;
+    }
 }

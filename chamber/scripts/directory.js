@@ -46,6 +46,10 @@ function deleteChild(){
 };
 
 function displayCards(buisness) {
+    let element =document.querySelector('.directory')
+    element.classList.add('cards')
+    element.classList.remove('list');
+
     let card = document.createElement('section');
 
     document.querySelector('.directory').innerHtml = "";
@@ -77,6 +81,11 @@ function displayCards(buisness) {
 }
 
 function displayTable(buisness) {
+
+    let element =document.querySelector('.directory');
+    element.classList.add('list');
+    element.classList.remove('cards');
+
     let tableRow = document.createElement('tr');
 
     document.querySelector('.directory').appendChild(tableRow)
