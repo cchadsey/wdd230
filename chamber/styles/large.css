@@ -1,11 +1,19 @@
 @media screen and (min-width: 64em) {
+    header{
+        background-color: #003049;
+    }
     .heading{
         display:grid;
         grid-template-columns:1fr 1fr 2fr 1fr;
         grid-template-rows:2fr 1fr;
-        height:200px;
+        max-height: 250px;
+        background-color: #003049;
 
     
+    }
+    #headDate{
+        grid-column: 1/6;
+        width:98%;
     }
     .logo{
         display:grid;
@@ -33,6 +41,7 @@
     }
     .navMenu{
         display:flex;
+        flex-direction: row;
         grid-column:1/6;
         
     }
@@ -56,7 +65,7 @@
     }
     
     
-    main{
+    main .index{
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 1fr 1fr;
@@ -144,5 +153,32 @@
     }
     .cards h2{
         font-size:1em;
+    }
+    .gallery{
+        margin:auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        
+    }
+    .gallery img{
+        display:grid;
+        -webkit-filter:grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        max-width: 98%;
+    }
+    .gallery:hover img{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+    .disc{
+        display:flex;
+        justify-content: center;
+    }
+    .demographic{
+        padding: 20px;
     }
 }

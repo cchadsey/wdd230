@@ -129,7 +129,7 @@ a#menubutton::before{
 .navMenu a:hover{
     color:#EF6F6C;
 }
-main{
+main .index{
     display:flex;
     flex-direction: column;
     margin:auto;
@@ -297,4 +297,12 @@ footing p{
 }
 .cards section:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.877);
+}
+.list a{
+    display:none;
+
+}
+.list tr td{
+    border:solid 1px black;
+    margin:auto;
 }

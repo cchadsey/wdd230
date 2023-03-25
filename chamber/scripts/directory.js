@@ -109,8 +109,10 @@ function displayTable(buisness) {
 
 
     let website = document.createElement('td');
-    website.setAttribute('href', buisness.website);
-    website.textContent = 'Website';
+    let link = document.createElement('a');
+    link.setAttribute('href', buisness.website);
+    link.textContent = 'Website';
+    website.appendChild(link)
     tableRow.appendChild(website);
 
     ;
