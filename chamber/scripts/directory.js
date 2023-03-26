@@ -94,9 +94,6 @@ function displayTable(buisness) {
     name.textContent = buisness.name;
     tableRow.appendChild(name);
 
-    let type = document.createElement('td');
-    type.textContent = buisness.type;
-    tableRow.appendChild(type);
 
 
     let address = document.createElement('td');
@@ -106,6 +103,11 @@ function displayTable(buisness) {
     let phone = document.createElement('td');
     phone.textContent = buisness.phone;
     tableRow.appendChild(phone);
+
+    let image = document.createElement('img');
+    image.setAttribute('src', buisness.logo);
+    image.setAttribute('alt', '${buisness.name} Logo');
+    tableRow.appendChild(image);
 
 
     let website = document.createElement('td');

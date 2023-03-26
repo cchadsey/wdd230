@@ -38,7 +38,7 @@
             "address" : "876 car aisle",
             "phone" : "918-899-9999",
             "website" : "www.freedomford.com",
-            "logo" : "./images/freedomford.png",
+            "logo" : "./images/ford.png",
             "membership" : "gold"
         },
         {
@@ -53,25 +53,25 @@
             "name" : "Gregory's Choclate Factory",
             "address" : "22343 Industry Dr",
             "phone" : "918-654-4564",
-            "website" : "www.gregorychoclate",
-            "logo" : "./images/gregory.png",
+            "website" : "www.gregorychocolate.factory",
+            "logo" : "./images/chocolate.png",
             "membership" : "silver"
         },
         {
             "name" : "Lary's Toxic Waste",
             "address" : "14 Radiation Way",
-            "phone" : "",
-            "website" : "",
-            "logo" : "./images/",
-            "membership" : ""
+            "phone" : "918-446-5566",
+            "website" : "www.toxiclary.waste",
+            "logo" : "./images/toxic.png",
+            "membership" : "gold"
         },
         {
             "name" : "Steve's Emporium of Suspicious Goods",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "logo" : "./images/",
-            "membership" : ""
+            "address" : "3 creepy way",
+            "phone" : "918-753-7575",
+            "website" : "www.seosg.sus",
+            "logo" : "./images/steve.png",
+            "membership" : "gold"
         }
     ]
 }
