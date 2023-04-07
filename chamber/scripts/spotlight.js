@@ -6,7 +6,7 @@ async function getDirectory(url) {
     let response = await fetch(url);
     if (response.ok) {
         let d = await response.json();
-        console.log(d);
+        //console.log(d);
         setSpot(d);
     }
 }
@@ -25,7 +25,7 @@ function setSpot(d) {
             m.push(item);
         };
     })
-    console.log(m)
+    //console.log(m)
 
     let rando = Math.floor(Math.random() * m.length);
     let s1 = m[rando];
@@ -37,7 +37,7 @@ function setSpot(d) {
         var x = rando - 1;
         var y = rando - 2;
     }
-    console.log(x, y)
+    //console.log(x, y)
     let s2 = m[x]
     let s3 = m[y];
 

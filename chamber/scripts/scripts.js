@@ -34,8 +34,7 @@ function toggleMenu() {
     document.getElementsByClassName("navMenu")[0].classList.toggle("responsive");
 }
 
-//using the existing dateform to insert date/time into the form on the join page.
-document.getElementById("joindate").value = now 
+
 
 
 let day = now.getDay()
