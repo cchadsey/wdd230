@@ -18,16 +18,28 @@ function setSpot(d) {
     
 
     b.forEach((item) => {
-        if (item.memebership === "gold"){
+        if (item.membership === "gold"){
             m.push(item);
-        } else if (item.membership === "silver"){
+        };
+        if (item.membership === "silver"){
             m.push(item);
-        }
+        };
     })
+    console.log(m)
 
-    let s1 = m[Math.floor(Math.random() * m.length)];
-    let s2 = m[Math.floor(Math.random() * m.length)];
-    let s3 = m[Math.floor(Math.random() * m.length)];
+    let rando = Math.floor(Math.random() * m.length);
+    let s1 = m[rando];
+
+    if (rando <=(m.length -2)){
+        var x = rando+1;
+        var y = rando+2;
+    }else {
+        var x = rando - 1;
+        var y = rando - 2;
+    }
+    console.log(x, y)
+    let s2 = m[x]
+    let s3 = m[y];
 
 
     createSpot(s1, 1)
@@ -36,8 +48,7 @@ function setSpot(d) {
 
 
 
-    }
-
+}
 function createSpot(d, x){
     const i =document.createElement('img');
     const n = document.createElement('h4');

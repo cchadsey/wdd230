@@ -242,10 +242,35 @@ main img{
 .spot3{
     display:none;
 }
+.conBody{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items:stretch;
+    text-align: center;
+    margin:auto;
+    padding:10px;
+    align-content: center;
+    
+}
+.conBody img{
+    border:solid 1px black;
+    text-align: center;
+    grid-column:1/3;
+    grid-row:3/4;
+}
+.conForm{
+    grid-column: 1/2;
+}
 
 
-
-
+.conForm form label{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
 footer img{
     width:100px;
 }

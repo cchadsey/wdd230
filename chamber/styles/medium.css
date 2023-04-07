@@ -114,7 +114,18 @@
     .disc h2{
         justify-content:center;
     }
-    
+    .conBody{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+
+    }
+    .conForm{
+        grid-column: 2/3;
+        grid-row:1/2
+    }
+    .conBody img{
+        grid-row:2/3;
+    }
     .join{
         display:grid;
         grid-template-columns: 1fr 1fr;
