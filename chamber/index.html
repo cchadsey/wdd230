@@ -55,33 +55,29 @@
                         <p>Join us for our anual Italian Festival! <br>Every weekend this month,<br> at the McAlester Expo Center!</p>
                     </div>
                     <div id="weather" class="box">
-                        <img src="images/hot.png" alt="Hot">
+                        <img id="wIcon" src="images/hot.png" alt="Hot">
                         <h2>Weather</h2>
-                        <p class="temp">95&#8451;</p>
-                        <p class="condition">Hot</p>
-                        <p class="wind">Wind Speed: 2 MPh<br>Feels Like: 104&#8451;</p>
+                        <p id="temp">95&#8451;</p>
+                        <p id="condition">Hot</p>
+                        <p >Wind Speed: <span id="wind">2</span> MPh<br>Feels Like: <span id="fLike">104&#8451;</span>&#8457;</p>
                     </div>
                     <div id="join" class="box">
-                        <p>Join</p>
+                        <p>See how Joining us can promote your buisness!</p>
+                        <a href="join.html"><button>Join us!</button></a>
                     </div>
                     <div id="news" class="box">
                         <h2>News</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <div id="spotlight" class="box spotBox">
-                        <div class="box spot1">
-                            <img src="images/buffalo.png" alt="McAlester Buffaloes">
-                            <p>Enrolling now for the upcoming school year!</p>
-                            <a href="www.mcalester.k12.ok.us">McAlester Public Schools</a>
+                        <div id="s1" class="box spot1">
+
                         </div>
-                        <div class="box spot2">
-                            <img src="images/pepsi.png" alt="McAlester Pepsi">
-                            <p>McAlester Pepsi, bringing that hometown service to the national level!</p>
-                            <a href="mcalesterpepsi.com">McAlester Pepsi</a>
+                        <div id="s2" class="box spot2">
+
                         </div>
-                        <div class="box spot3">
-                            <img src="images/flu.png" alt="Flu Shots">
-                            <p>Flu Shots now avaliable at the health department!</p>
+                        <div id="s3" class="box spot3">
+
                         </div>
                     </div>
                 </section>
@@ -107,5 +103,7 @@
                 </footing>
             </footer>
         <script src="scripts/scripts.js"></script>    
+        <script src="scripts/weatherapi.js"></script>
+        <script src="scripts/spotlight.js"></script>   
         </body>
     </html>
