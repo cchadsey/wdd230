@@ -15,19 +15,58 @@
         </head>
         <body>
             <div class="heading">
-                <img src="" alt="">
                 <h1>Bountiful Foods</h1>
                 <nav>
-                    <li><a href="fresh.html">Fresh</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li id="nav1"><a  href="fresh.html">Fresh</a></li>
+                    <li id="nav2"><a  href="about.html">About</a></li>
                 </nav>
             </div>
-            <div class="social">
-                <li><a class="icon" href="facebook.com"><img src="images/facebook_icon.png" alt="Facebook"></a></li>
+            <div class="sidebar">
+                <li><a class="icon" href="facebook.com"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
                 <li><a class="icon" href="linkedin.com"><img src="images/linkedin-icon.png" alt="Linkedin"></a></li>
+                <li><a class="icon" href="twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a></li>
             </div>
-        </body>
-        <footer>
+            <div class="banner">
+                <h3><a href="fresh.html">Click Here to Build Your Drink!</a></h3>
+            </div>
+            <section class="content">
+                <div class="areasummary">
+                    <img src="https://placehold.co/600x400" data-src="images/cbsplash.jpg" alt="South Carlsbad State Beach">
+                    <h2>South Carlsbad State Beach</h2>
+                    <p>"This nearly five-mile stretch of beach is popular with families but also draws surfers and skin divers to the water and runners and cyclists to the boulevard bordering the beach." -TripAdvisor</p>
+                </div>
+                <div id="weather">
+                    <h2>Today's Weather</h2>
+                    <p><span id="temp">95</span>&#8457;</p>
+                    <p id="condition">Hot</p>
+                    <p >Humidity: <span id="humid">2%</span> MPh</p>
+                    <div id="3day">
+                        <p>Tomorrow: <span id="tomorow"></span>&#8457;</p>
+                        <p>The Next Day: <span  id="nextday"></span>&#8457;</p>
+                        <p>The Day After: <span  id="dayafter"></span>&#8457;</p>
+                    </div>
 
-        </footer>
+                </div>
+                <div class="card">
+                    <h4>You have created <span id="dcount"></span> Drinks!</h4>
+                </div>
+            </section>    
+            <footer>
+                <h2>Bountiful Foods</h2>
+                <p>4 fruty drink way</p>
+                <p>Carlsbad California</p>
+                <phone>(999)443-5555</phone>
+                <a href="refrence.html"></a>
+                <div class="footing">
+                    <p>&copy;<span id="currentYear">pizza</span>
+                    <p>Camden Chadsey</p>
+                    <p>WDD 230 Project</p>
+                    <p id="lastModified"></p> 
+                </div>
+            </footer>
+            <script src="scripts/lazyload.js"></script>
+            <script src="scripts/drinkcount.js"></script>
+            <script src="scripts/lastmodified.js"></script>
+            <script src="scripts/weatherapi.js"></script>
+        </body>
     </html>
